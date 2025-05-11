@@ -130,6 +130,7 @@ header .navbar li a:hover {
     color: black;
     margin-bottom: 40px;
     background: url("https://adexehernandez.github.io/LandingPage/assets/img/h1.gif");
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-position: center;

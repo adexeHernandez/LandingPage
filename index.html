@@ -211,8 +211,13 @@
         </ul>
     </footer>
 
-    <!-- Este script lo he usado anteriormente para cambiar el estilo del menú al hacer scroll (efecto sticky). 
-     Lo tenia apuntado en "favoritos" -->
+    <!-- Este pequeño script lo uso para cambiar el estilo del menú cuando se hace scroll.
+
+    No cambia la posición, solo le añade una clase al <body> cuando el usuario ha bajado 200 píxeles, 
+    para que se vea más compacto, con fondo oscuro y sombra.
+
+    Es algo que ya he usado en otras webs con WordPress, y entiendo cómo funciona:
+    escucha el scroll y según la posición, añade o quita la clase 'scrolled-200'.-->
 
     <script>
         window.addEventListener("scroll", function () {
